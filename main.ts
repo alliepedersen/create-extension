@@ -1,0 +1,8 @@
+scene.setBackgroundColor(7)
+effects.confetti.startScreenEffect()
+pause(3000)
+game.setDialogFrame(img``)
+game.setDialogTextColor(10)
+game.showLongText('Welcome to the party!', DialogLayout.Bottom)
+effects.confetti.endScreenEffect()
+music.baDing.playUntilDone()
